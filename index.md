@@ -3,13 +3,10 @@ layout: lesson
 root: .
 ---
 
-Esta lección consiste en un viaje de introducción a algunos conceptos básicos del lenguaje C++, en torno a una tarea concreta: servir como toma de contacto a este lenguaje para matemáticos y científicos.
+El material docente aquí contenido es la base de (los primeros cursos de) el curso "Software en Matemáticas", impartido en la Universidad de Cádiz, dentro el Máster interuniversitario en Matemáticas.
 
 > ## Prerequisitos
-> Los seguidores del curso deberán poseer algunos conocimientos
-> básicos del lenguaje C, o bien (como mínimo) de programación usando
-> lenguajes compilados como Fortran o Pascal. Además, serán necesarios
-> unos conceptos mínimos de la shell UNIX (creación y edición de ficheros).
+> Para seguir el curso, es sufciente poseer algunos conocimientos básicos en matemáticas y en informática.
 {: .prereq}
 
 

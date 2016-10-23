@@ -1,70 +1,52 @@
 ---
-title: "First Steps"
+title: "Software Libre en Matemáticas"
 teaching: 15
 exercises: 5
 questions:
-- "¿Cómo creo, compilo y ejecuto mi primer programa en C++?"
+- "¿Qué software estudiaremos en este curso? ¿Por qué software libre?"
 objectives:
-- "Utilizar la sintaxis básica de C++, esencialmente basada en el lenguaje C"
-- "Ser capaz de crear, compilar y ejecutar este programa"
+- Objetivo 1
+- Objetivo 2
 keypoints:
-- "La sintaxis de C++ es similar a la del lenguaje C (a la que extiende)"
-- "Para imprimir hacia la consola, dirigimos los datos a la salida estándar `std::cout`"
-- "Podemos usar cualquier editor para crear un programa C++"
-- "Podemos compilarlo con GNU/C++ mediante la orden `g++`"
+- Clave 1
+- Clave 2
 ---
 
-Este episodio se centra en la forma de compilar y ejecutar programas C++ en la shell UNIX. Aunque (en cierto modo) C++ es un superconjunto del lenguaje C, nos centraremos en la sintaxis específica de C++ e intentaremos sacar partido a las capacidades introducidas en las últimas versiones (`C++03`, `C++11`, `C++14`).
+En este apartado se listarán los distintos módulos que componen la asignatura **Software en Matemáticas** impartida el Máster en Matemáticas, dentro de la Universidad de Cádiz. En todos ellos se estudian programas matemáticos, orientados a distintas áreas (sistemas operativos, aplicaciones de escritorio, programas de cálculo simbólico o numérico, edición de textos matemáticos..., *e-learning*,...) con un denominador común: todos ellos tienen **licencia libre**.
 
-## Un primer programa en C++
+## Ficha de la asignatura
 
-Un programa de ordenador es una secuencia de instrucciones que actúan sobre un conjunto de datos. Todo programa debe tenr un punto de entrada a estas instrucciones. Como en el lenguaje *C*, el punto de entrada para un programa *C++* es la función **main**, que en su forma más simple se escribe como
 
-~~~
-int main(int argc, char** argv) {
-}
-~~~
-{: .cpp}
-
-Como en *C*, la función *main* toma dos argumentos, un entero *argc* y
-una lista de cadenas de caracteres, *argv*, que en este caso no son
-usados. De hecho, el programa anterior no realiza ninguna tarea pues
-la función *main* no contiene ninguna instrucción. Añadiremos dos
-nuevas líneas de código para que el programa muestre en la consola :
-
-~~~
-#include <iostream>
-int main(int argc, char** argv)
-{
-  std::cout << "¡Hola mundo!" << std::endl;
-}
-~~~
-{: .cpp}
-
-La primera línea, carga la biblioteca estándar *iostream* (que
-contiene los servicios básicos de entrada/salida en *C++*). Ésta
-biblioteca es usada por la única intrucción del programa, contenida
-entre llaves `{` `}`. En esta instrucción se envía (usando el operador `<<`) a la salida
-estándar `std::cout` (que habitualmente coincide con la consola UNIX)
-el texto "¡Hola mundo!" seguido por un carácter de fin de línea `std::endl`.
-
+> ## Contenidos
+> La asignatura se organizará en los módulos siguientes:
 >
-> ## El espacio de nombres estándar
+> 1. El **software libre y el sistema Linux**: instalación, administración y uso cotidiano *(temas 1 y 2)*.
+> 2. Introducción a **sistemas de cálculo** con software libre. Resolución de modelos matemáticos usando Maxima y/o Python (*temas 3 y 4)*.
+> 3. Introducción a **LaTeX**. Manejo del LaTeX. Beamer: Elaboración y presentación de un trabajo, tesis o conferencia (*temas 5 y 6)*.
+> 4. Curso de **Moodle**. Creación de ficheros "scorm" *(temas 7 y 8)*.
 >
-> - La expresión `std::` en el programa anterior especifica *de forma explícita* que el nombre `cout` se puede encontrar en el espacio de nombres de la biblioteca estándar (y lo mismo para `endl`). Esta biblioteca contiene muchos otros objetos y funciones interesantes, algunos de los cuales se detallarán más adelante.
-> - Todo espacio de nombres puede usarse, además, *de forma implícita* mediante la orden `using namespace`. Por ejemplo, el programa anterior es equivalente al siguiente (nota: C++ usa `//` para comentarios):
+> Estos cuatro módulos pretenden barrer una amplia gama de software y herramientas informáticas relacionadas con las matemáticas, incluyendo el punto de vista de su uso en labores profesionales y, en particular, en la *docencia* y la *investigación* en matemáticas. Todo el software estudiado tiene un denominador común: su *licencia libre* que, como veremos, ofrece al usuario libertad para copiarlo y utilizarlo sin restricciones significativas.
+{: .callout}
+
+Se puede acceder a la información completa sobre la asignatura través de su la información académica del máster:
+[http://masteres.ugr.es/doctomat/pages/info_academica/guias_docentes](http://masteres.ugr.es/doctomat/pages/info_academica/guias_docentes). A continuación, se lista la asignatura general de la asignatura, tal y como se la información académica. Además, en algunos de los módulos anteriores se, ofrecerá bibliografía específica.
+
+> ## Bibliografía general
 >
-> ~~~
-> #include <iostream>
-> using namespace std // Los nombres de std serán visibles sin std::
-> int main(int argc, char** argv)
-> {
->  cout << "¡Hola mundo!" << endl;
-> }
-> ~~~
->  Como se puede observar en C++ se usa `//` para los comentarios
-> {: .cpp}
-{: .discussion}
+> - William Stallings Sistemas operativos : aspectos internos y principios de diseño , Edit. Prentice-Hall, 2005.
+> - Andrew S. Tanenbaum Redes de Computadoras, Edit. Prentice-Hall, 1998.
+> - "Getting Started with Ubuntu", [https://ubuntu-manual.org](https://ubuntu-manual.org)
+> - Python 3 tutorial, [https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html)
+> - A. B. Downey, Think python, Green Tea Press, [http://greenteapress.com/wp/think-python](http://greenteapress.com/wp/think-python)
+> - Leslie Lamport. LATEX: A Document Preparation System. Addison-Wesley, Reading, Massachusetts, segunda edición, 1994.
+> - Michel Goossens, Frank Mittelbach and Alexander Samarin. The LATEX Companion. Addison-Wesley, Reading,  Massachusetts, 1994
+> - [http://exelearning.net/exelearning-2-1-manual-tutorial](http://exelearning.net/exelearning-2-1-manual-tutorial)
+> - [https://docs.moodle.org/31/en/Main_page](https://docs.moodle.org/31/en/Main_page)
+{: .callout}
+
+## El software libre
+
+![Mapa conceptual del software libre](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mapa_conceptual_del_software_libre.svg/800px-Mapa_conceptual_del_software_libre.svg.png)I
 
 
 
