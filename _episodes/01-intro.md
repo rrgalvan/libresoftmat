@@ -12,7 +12,7 @@ keypoints:
 - Clave 2
 ---
 
-En este apartado se listarán los distintos módulos que componen la asignatura **Software en Matemáticas** impartida el Máster en Matemáticas, dentro de la Universidad de Cádiz. En todos ellos se estudian programas matemáticos, orientados a distintas áreas (sistemas operativos, aplicaciones de escritorio, programas de cálculo simbólico o numérico, edición de textos matemáticos..., *e-learning*,...) con un denominador común: todos ellos tienen **licencia libre**.
+En este apartado se listarán los distintos módulos que componen la asignatura **Software en Matemáticas** impartida en el Máster en Matemáticas, dentro de la Universidad de Cádiz. En todos ellos se estudian programas matemáticos, orientados a distintas áreas (sistemas operativos, aplicaciones de escritorio, programas de cálculo simbólico o numérico, edición de textos matemáticos..., *e-learning*,...) con un denominador común: todos ellos tienen **licencia libre**.
 
 ## Ficha de la asignatura
 
@@ -48,6 +48,38 @@ Se puede acceder a la información completa sobre la asignatura través de su la
 
 ![Mapa conceptual del software libre](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mapa_conceptual_del_software_libre.svg/800px-Mapa_conceptual_del_software_libre.svg.png)I
 
+- **¿Qué es el software libre?** El término software libre se refiere
+  al conjunto programas informáticos que, por elección manifiesta de
+  su autor, puede ser *utilizado* libremente (con cualquier fin),
+  *estudiado y modificado*, *redistribuido* y *publicado*
+  (eventualmente, con adaptaciones o mejoras). En
+  la práctica, para que un programa pueda ser considerado libre, es
+  indispensable que su *licencia* certifique cada una de estas
+  características (o libertades). A este tipo de licencias se les
+  llama *licencia libre*.
+
+- **¿Qué relación hay entere software libre y software gratuito?** De
+  la definición de software libre se deduce que éste puede ser copiado
+  y distribuido gratuitamente. No obstante, existen modelos de negocio
+  basados en la venta de software libre (por ejemplo una persona puede
+  comprar software libre si éste viene acompañado de soporte técnico u
+  otras ventajas). Por otro lado, no todo el software gratuito
+  es libre (obviamente). Con frecuencia, se denomina *freeware* al software
+  gratuito que no es libre, debido a que no garantiza todas las libertades
+  citadas anteriormente.
+
+- **¿Cuando nació este concepto?** La definición del software libre
+  coincidió con el nacimiento del movimiento de software libre,
+  encabezado por Richard Stallman y la consecuente fundación en 1985
+  de la *Free Software Foundation*, con la intención de colocar la
+  libertad del usuario informático como propósito ético fundamental.
+
+
+Un programa informático es software libre si otorga a los usuarios todas estas libertades de manera adecuada. De lo contrario no es libre. Existen diversos esquemas de distribución que no son libres, y si bien podemos distinguirlos sobre la base de cuánto les falta para llegar a ser libres, su uso bien puede ser considerado contrario a la ética en todos los casos por igual.2
+
+El software libre suele estar disponible gratuitamente, o al precio de coste de la distribución a través de otros medios; sin embargo no es obligatorio que sea así, por lo tanto no hay que asociar «software libre» a «software gratuito» (denominado usualmente freeware), ya que, conservando su carácter de libre, puede ser distribuido comercialmente. Análogamente, el software gratis o gratuito incluye en ocasiones el código fuente; no obstante, este tipo de software no es «libre» en el mismo sentido que el software libre, a menos que se garanticen los derechos de modificación y redistribución de dichas versiones modificadas del programa.
+
+Tampoco debe confundirse software libre con «software de dominio público». Éste último es aquel que no requiere de licencia, pues sus derechos de explotación son para toda la humanidad, porque pertenece a todos por igual. Cualquiera puede hacer uso de él, consignando su autoría original. Este software sería aquel cuyo autor lo dona a la humanidad o cuyos derechos de autor han expirado. Si un autor condiciona su uso bajo una licencia, por muy débil que sea, ya no es del dominio público.
 
 
 ## Compilación con GNU C++
