@@ -3,20 +3,18 @@ title: "El sistema operativo GNU/Linux"
 teaching: 15
 exercises: 15
 questions:
-- "¿Qué es el software libre?"
-- "¿Qué tipos de licencias libres existen?"
-- "¿Existen licencias libres para documentos, vídeos y material
-  multimedia"
+- "¿Qué es un sistema operativo?"
+- "¿Qué es el sistema operativo GNU/Linux?"
+- "¿Qué son las distribuciones Debian, Ubuntu y Guadalinex?"
+- "¿Por qué motivos puede interesarme usar sistemas operativos Linux?"
 objectives:
-- Distinguir el software libre de aquél que no lo sea.
-- Distinguir las propiedades de los distintos tipos de licencia libre.
-- Saber dotar de licencia libre a un programa o a material multimedia.
+- Distinguir las características de los sistemas operativos modernos y recordar su historia.
+- Encuadrar a GNU/Linux dentro de los sistemas operativos actuales, en particular Ubuntu y Guadalinex.
+- Apreciar la difusión GNU/Linux en servidores, computación científica y sistemas móviles.
 keypoints:
-- El hecho de que un programa sea libre depende del hecho de que su autor decida ceder a los usuarios una serie de libertades
-- Esta cesión de libertades se debe cristalizar en una licencia
-- Existen distintos tipos de licencias libres. Algunas exigen
-  reconocer al autor original y otras exigen que los trabajos
-  derivados siguan siendo libres
+- Los sistemas operativos UNIX han tenido, desde su creación unas excelentes propiedades
+- Los sistemas GNU/Linux se encuentran entre los sistemas UNIX más extendidos
+- Su difusión es enormemente significativa en servidores de internet y en computación científica
 - Las licencias Creative Commons se suelen usar para publicar material multimedia con licencia libre
 ---
 
@@ -108,7 +106,7 @@ derivaciones.
 
 - [Ubuntu](https://www.ubuntu.com/) es una distribución de GNU/Linux que fue derivada de Debian con el propósito de facilitar su uso por usuarios domésticos, centránose en las arquitecturas Intel y AMD y publicando versiones frecuentes: dos al año (abril y octubre, que son numeradas como X.04 y X.10, donde X es el año) y una versión estable cada dos años, llamada LTS (*Long Term Support*). Ubuntu tiene la ventaja de integrar los excelentes paquetes de software de Debian.
 
-- [Guadalinex](http://www.guadalinex.org/) es la  distribución de GNU/Linux que publicó la Junta de Andalucía para centros docenes y para uso doméstico. Los motivos fueron de índole económica (enorme ahorro de costes ante el despliegue de miles de ordenadores) pero también de innovación tecnológica en el sector de las TIC. Originalmente, Guadalinex se derivó de Debian, pero las últimas versiones están basadas en Ubuntu.
+- [Guadalinex](http://www.guadalinex.org/) es la  distribución de GNU/Linux que publicó la Junta de Andalucía para centros docenes y para uso doméstico. Los motivos fueron de índole económica (independencia de proveedores de software y por tanto enorme ahorro de costes ante el despliegue de miles de ordenadores) pero también de carácter práctico (calidad de los entornos UNIX, ausencia de virus...) y relacionados con el impulso a la innovación tecnológica en el sector de las TIC andaluz (empresas andaluzas trabajando en el sector de los sistemas operativos). Originalmente, Guadalinex se derivó de Debian, pero las últimas versiones están basadas en Ubuntu.
 
 ## Los usos más habituales de GNU/Linux
 
