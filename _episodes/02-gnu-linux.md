@@ -35,36 +35,40 @@ determinadas tareas y por tanto se colocan sobre el sistema operativo.
 La noción de Sistema Operativo surge en la década de los 50 y a lo
 largo de los años 60 se introducen los conceptos fundamentales, entre ellos:
 
-- Sistema *multiusuario*: aquél que ofrece servicio y procesamiento a múltiples
-  usuarios de forma (aparentemente) simultánea. Estos usuarios pueden
-  tener distintos privilegios de acceso a los recursos del sistema.
-- Sistema *multitarea*: aquél que permitie que varios procesos o aplicaciones se
-  ejecuten (aparentemente) al mismo tiempo, compartiendo uno o más
-  procesadores.
+- Sistema *multiusuario*: aquél que ofrece servicio y procesamiento a
+  múltiples usuarios de forma simultánea. Estos usuarios pueden tener
+  distintos privilegios de acceso a los recursos del sistema.
+- Sistema *multitarea*: aquél que permitie que numerosos procesos o
+  aplicaciones se ejecuten al mismo tiempo (quizás aparentemente),
+  compartiendo uno o más procesadores.
 
 En los años 70 aparece el sistema operativo *UNIX*, que de una u otra
 forma ha marcado a los sistemas operativos actuales. Dotado de
-características multiusuario y multitarea, UNIX se extendió rápidamente, en
-distintas versiones que se distribuyeron en universidades y compañías
-gubernamentales de Estados Unidos. El sistema UNIX no tenía licencia
-libre, pero la Universidad de Berkley mantuvo una versión conocida
-como *BSD*, que sería publicada en décadas posteriores  con una
-licencia libre.
+características multiusuario y multitarea, UNIX se extendió
+rápidamente, en distintas versiones que se distribuyeron en
+universidades y compañías gubernamentales de Estados Unidos. El
+sistema UNIX no tenía licencia libre, pero la Universidad de Berkley
+mantuvo una versión conocida como *BSD*, que sería publicada en
+décadas posteriores con una licencia libre. Las versiones con
+licencia no libre fueron decayendo en popularidad con los años.
 
-En la década de 1980 un grupo de académicos y programadores
-voluntarios, liderados por Richard M. Stallman y cristalizados en
-torno a la *Free Software Foundation*, comenzaron un proyecto para
-crear el primer sistema operativo completamente libre, de tipo UNIX. A
-este proyecto se le llamó *GNU* (acrónimo recursivo: GNU = GNU's Not
-UNIX).
+La clave estivo en el siguiente hecho: en la década de 1980 un grupo
+de académicos y programadores voluntarios, liderados por Richard
+M. Stallman y cristalizados en torno a la *Free Software Foundation*,
+comenzaron un proyecto para crear el primer sistema operativo
+completamente libre, de tipo UNIX. A este proyecto se le llamó *GNU*
+(acrónimo recursivo: GNU = GNU's Not UNIX).
 
 En los años 90, el sistema GNU estaba maduro con la excepción de su
 pieza fundamental: el núcleo del sistema operativo. En 1991, un
-estudiante llamado Linus Torvalds desarrolló un núcleo para
-computadoras al que llamó *Linux* y dotó de licencia GPL. Este núcleo
-fue integrado por el proyecto GNU, dando pie al sistema operativo
-*GNU/Linux* (aunque, por muchas personas, es conocido simplemente como
-Linux).
+estudiante universitario llamado Linus Torvalds desarrolló un núcleo
+para computadoras al que llamó *Linux* y dotó de licencia GPL. Este
+núcleo fue integrado por el proyecto GNU, dando pie al sistema
+operativo *GNU/Linux* (aunque, por muchas personas, es conocido
+simplemente como Linux). Este es el sistema que conocemos en la
+actualidad, muy extendido en algunos campos (como en computación
+científica y en servidores). A su vez, el núcleo *Linux* es hoy el
+corazón de sistemas operativos como el popular *Android*.
 
 De forma paralela, en los años 80 apareció un sistema llamado
 NeXTSTEP, basado en un sistema UNIX BSD proveniente de los
