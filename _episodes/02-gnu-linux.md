@@ -49,15 +49,16 @@ rápidamente, en distintas versiones que se distribuyeron en
 universidades y compañías gubernamentales de Estados Unidos. El
 sistema UNIX no tenía licencia libre, pero la Universidad de Berkley
 mantuvo una versión conocida como *BSD*, que sería publicada en
-décadas posteriores con una licencia libre. Las versiones con
-licencia no libre fueron decayendo en popularidad con los años.
+décadas posteriores con una licencia libre. Las versiones no libres de
+UNIX fueron lentamente decayendo en popularidad.
 
-La clave estivo en el siguiente hecho: en la década de 1980 un grupo
+La clave estuvo en el siguiente hecho: en la década de 1980 un grupo
 de académicos y programadores voluntarios, liderados por Richard
 M. Stallman y cristalizados en torno a la *Free Software Foundation*,
 comenzaron un proyecto para crear el primer sistema operativo
 completamente libre, de tipo UNIX. A este proyecto se le llamó *GNU*
-(acrónimo recursivo: GNU = GNU's Not UNIX).
+(acrónimo recursivo: GNU = GNU's Not UNIX). De él se beneficiaron
+todas las versiones de UNIX, incluyendo las no libres y las *BSD*.
 
 En los años 90, el sistema GNU estaba maduro con la excepción de su
 pieza fundamental: el núcleo del sistema operativo. En 1991, un
@@ -92,19 +93,17 @@ A partir de los años 90, el núcleo Linux se unió al sistema GNU, dando
 lugar a un sistema operativo de tipo UNIX que contó con las numerosas
 aplicaciones básicas que habían sido desarrolladas con licencia libre
 por personas o instituciones de todo el mundo. Con el desarrollo
-paralelo de internet, el número y la calidad de estas aplicaciones
-crecería considerablemente.
+paralelo de internet, la calidad y el número de estas aplicaciones
+crecería enormemente.
 
-
-Para facilitar la instalación y configuración del sistema, así como de
+Para facilitar la instalación y configuración del sistema y de
 los miles de *paquetes de software* existentes (archivos en los se
 distribuye un programa o programas junto a bibliotecas, documentación,
 etc), nacieron distintas **distribuciones**
 de GNU/Linux. Entre las primeras en aparecer (a principios de los años
 90) se encuentran *RedHat* y *Debian*, distribuciones que crearon sus
 propios sistemas de paquetes y de las que, a su vez, se derivaron
-otras distribuciones. Nos centraremos en la última y en algunas de sus
-derivaciones.
+otras. Por ejemplo, sobre Debian y sus derivaciones:
 
 - [Debian](https://www.debian.org) es una distribución de GNU/Linux caracterizada por una amplia comunidad de miles de desarrolladores sin ánimo de lucro (algunas decenas de los cuales son [españoles](https://www.debian.org/international/spanish/desarrolladores)) que mantienen *decenas de miles de paquetes de software* libre. Una buena parte de ellos son programas de gran calidad, y todos ellos son directamente instalables en el sistema operativo desde repositorios en internet.  [Los paquetes se clasifican en secciones](https://packages.debian.org/stable/) temáticas, entre las que se encuentra la sección [*Mathematics*](https://packages.debian.org/stable/math/), que contiene una gran cantidad de paquetes. Además, otras secciones pueden ser interesantes para matemáticos: [*Science*](https://packages.debian.org/jessie/science/), [*Education*](https://packages.debian.org/jessie/education/), [*TeX*](https://packages.debian.org/jessie/tex/), [*Python*](https://packages.debian.org/jessie/python/),...  En la actualidad, Debian está disponible para nueve [arquitecturas de hardware](https://www.debian.org/ports/index.es.html#portlist-released), entre ellas los habituales procesadores Intel y AMD de ordenadores domésticos (32 y 64 bits).
 
@@ -135,22 +134,18 @@ Aun así, GNU/Linux está lejos de ser un sistema operativo extendido entre el u
 
 ### Software libre en servidores web y en super-computación
 
-También algunos de los
-programas en los que se apoya internet, como el servidor de páginas
-web *Apache* (del que depende más del 50% de las páginas web del
-mundo).
+La mayor parte de los programas en los que se apoya internet, como el
+servidor de páginas web *Apache* (del que depende más del 50% de las
+páginas web del mundo) y servidores de correo electrónico como
+*Sendmail*, tienen licencia libre.
+
+La mayor parte de las bibliotecas científicas y para super-computación
+tienen licencia libre. La inmensa mayoría de lso ordenadores más
+pontentes del mundo ejecutan sistemas operativos de tipo GNU/Linux.
 
 > ## Ejercicios
 >
-> 1. ¿Cuál de las seis licencias creative commons se puede considerar como una licencia de tipo GPL?
-> 2. ¿Cuál de las seis licencias creative commons se puede considerar como una licencia de tipo BSD?
-> 3. La página web actual está basada en el diseño de [Software Carpentry](https://software-carpentry.org), un proyecto dedicado a la enseñanza de habilidades básicas de computación para científicos. Por cierto, el proyecto se centra en el Software libre. ¿A qué licencia está sujeto el material docente contenido en esta página web?
->
-> > ## Soluciones
-> >
-> > 1. La  licencia "Creative Commons Atribución Compartir Igual" (CC-BY-SA) obliga a compartir los trabajos derivados con la misma licencia y, por tanto, es de tipo GPL.
-> > 2. La  licencia "Creative Commons Atribución" (CC-BY) sólo obliga reconocer al autor original y, por tanto, es de tipo BSD.
-> > 3. En la parte superior derecha de esta página se encuentra un enlace llamado *License*. En él se puede comprobar que este trabajo está sujeto a licencia CC-BY-SA.
-> {: .solution}
+> 1. ¿Cuál es, en la actualidad, el porcentaje de páginas web que son servidas en internet por *Apache*?
+> 2. De los 500 ordenadores más potentes del mundo ¿cuál es, en la actualidad, el porcentaje de ellos que utilizan sistemas opertivos de la "familia Linux"?
 >
 {: .callout}
