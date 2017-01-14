@@ -14,8 +14,8 @@ objectives:
 keypoints:
 - Los sistemas operativos UNIX han tenido, desde su creación unas excelentes propiedades
 - Los sistemas GNU/Linux se encuentran entre los sistemas UNIX más extendidos
-- Su difusión es enormemente significativa en servidores de internet y en computación científica
-- Las licencias Creative Commons se suelen usar para publicar material multimedia con licencia libre
+- Su extensión no es significativa en entornos domésticos (a pesar de estar sobradamente preparados para ello)
+- Pero su difusión es enormemente significativa en computación científica y en grandes servidores, tanto de cálculo como de internet
 ---
 
 ## Sistemas operativos
@@ -146,6 +146,6 @@ pontentes del mundo ejecutan sistemas operativos de tipo GNU/Linux.
 > ## Ejercicios
 >
 > 1. ¿Cuál es, en la actualidad, el porcentaje de páginas web que son servidas en internet por *Apache*?
-> 2. De los 500 ordenadores más potentes del mundo ¿cuál es, en la actualidad, el porcentaje de ellos que utilizan sistemas opertivos de la "familia Linux"?
+> 2. De los 500 ordenadores más potentes del mundo ¿cuál es, en la actualidad, el porcentaje de ellos que utilizan sistemas operativos de la "familia Linux"?
 >
 {: .callout}
