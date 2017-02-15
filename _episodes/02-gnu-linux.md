@@ -15,7 +15,7 @@ keypoints:
 - Los sistemas operativos UNIX han tenido, desde su creación unas excelentes propiedades
 - Los sistemas GNU/Linux se encuentran entre los sistemas UNIX más extendidos
 - Su extensión no es significativa en entornos domésticos (a pesar de estar sobradamente preparados para ello)
-- Pero su difusión es enormemente significativa en computación científica y en grandes servidores, tanto de cálculo como de internet
+- Pero su difusión es enormemente significativa en computación científica y en grandes servidores, de cálculo y de internet
 ---
 
 ## Sistemas operativos
