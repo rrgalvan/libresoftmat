@@ -20,11 +20,12 @@ keypoints:
 - Las licencias Creative Commons se suelen usar para publicar material multimedia con licencia libre
 ---
 
+## El software libre
+
 - Prueba $\LaTeX$
 
 - Prueba $$\LaTeX$$
 
-## El software libre
 
 ![Mapa conceptual del software libre](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mapa_conceptual_del_software_libre.svg/800px-Mapa_conceptual_del_software_libre.svg.png)I
 
